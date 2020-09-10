@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 
+#
+
 class KMeansCluster():
     def __init__(self, NumIters, K):
         self.K = K
